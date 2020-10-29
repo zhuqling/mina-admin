@@ -220,6 +220,15 @@ const isSuccess = await admin.exec("mina_tools", {
 });
 ```
 
+
+```js
+// 获取 app 信息
+const appId = await admin.exec("mina_tools", {
+  type: 'app-info',
+  appName: '抽奖助手'
+});
+```
+
 ```js
 // 获取 appId
 const appId = await admin.exec("mina_tools", {
